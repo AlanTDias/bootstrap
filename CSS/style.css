@@ -1,0 +1,39 @@
+body{
+    background-image: linear-gradient(to right, rgb(255, 255, 255) , rgb(147, 240, 217));
+    font: 22px Arial, sans-serif;
+    
+    
+}
+
+.navbar{
+    background-image: linear-gradient(to right, rgba(238, 238, 224, 0.89) , rgb(0, 255, 191));
+    }
+
+.quem-somos{
+    background-image: linear-gradient(to right, rgb(255, 255, 255) , rgb(147, 240, 217));
+}
+
+.margin{
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.parceiros{
+    background-color: rgb(218, 244, 253);
+    cursor:pointer;
+}
+ 
+.dev{
+    font-size: 16;
+    background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+
+}
+
+
+
+.navbar-brand{
+    font: 40px;
+}
+
