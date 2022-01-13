@@ -8,6 +8,7 @@ body{
 .navbar{
     background-image: linear-gradient(to right, rgba(238, 238, 224, 0.89) , rgb(0, 255, 191));
     }
+    
 
 .quem-somos{
     background-image: linear-gradient(to right, rgb(255, 255, 255) , rgb(147, 240, 217));
@@ -21,6 +22,8 @@ body{
 .parceiros{
     background-color: rgb(218, 244, 253);
     cursor:pointer;
+    transition:all 700ms ease-in-out;
+    ;
 }
  
 .dev{
@@ -28,6 +31,7 @@ body{
     background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+    transition:all 700ms ease-in-out;
 
 }
 
@@ -37,3 +41,12 @@ body{
     font: 40px;
 }
 
+.parceiros:hover{
+    transform: translatey(-1.2rem);
+    box-shadow: 2px 3px 14px rgba(255,255,255,0.7);
+    opacity: 0.4;
+}
+
+.dev:hover{
+    opacity: 0.4;
+}
