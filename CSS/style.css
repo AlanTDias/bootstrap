@@ -23,15 +23,15 @@ body{
     background-color: rgb(218, 244, 253);
     cursor:pointer;
     transition:all 700ms ease-in-out;
-    ;
+    
 }
  
 .dev{
-    font-size: 16;
     background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
     transition:all 700ms ease-in-out;
+    text-decoration: none;
 
 }
 
@@ -49,4 +49,5 @@ body{
 
 .dev:hover{
     opacity: 0.4;
+    
 }
